@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin:0;
+}
+
+
+
+header{
+    background-image: url(Assets/A18.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:52vh;
+    background-size:cover;
+    color:white;
+    padding: 20px 3px;
+    
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav{
+    display:block;
+    padding:20px;
+    margin: 0 20px;
+    text-align-last: center;
+
+}
+
+nav li{
+    display:inline;
+    padding: 0 20px;
+}
+
+.brand-title{
+    font-size: 25px;
+    font-weight:bolder;
+}
+.center{
+    text-align: center;
+
+}
+.contain-center{
+    padding:20px;
+    font-size: 25px;
+}
+.header-container{
+    padding:40px 5px;
+}
+
+.time-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    background:white;
+    padding:0 10px;
+}
+.inline-background{
+    background:white;
+    margin:0 10rem;
+    padding:20px;
+}
+
+.green{
+    background: black;
+    color:white;
+    padding:0 2px;
+}
+
+.about-page{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    padding: 0 35px;
+}
+
+.time-margin{
+    border-right: 2px solid black;
+    text-align: center;
+    padding: 0 1.65rem;
+}
+.image-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.facility-board{
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas: 20px;
+    background:white;
+    padding:30px 5px;
+    justify-content: space-around;
+    margin:5px;
+}
+.facility-section{
+    background-image: url(assets/A13.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    height:50vh;
+    background-size:cover;
+    padding:15px;
+}
+.board-1{
+    padding:10px;
+    border-right: 1px solid black;
+}
+.board-2{
+    padding :10px 30px;
+    border-right: 1px solid black;
+}
+.board-3{
+    padding: 10px 30px;
+}
+.white-text{
+    color:white;
+    font-size: 23px;
+}
+.testimonial-container{
+    padding:30px;
+    background:ivory;
+}
+.test-container{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    background:white;
+    grid-area:10px;
+    padding:20px 5px;
+}
+
+.news-container{
+    padding:30px;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.section-news{
+    padding:0 30px;
+}
+.footer-section{
+    padding:30px 5px;
+    background:black;
+    color:white;
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-section button{
+    background: green;
+    color:white;
+    padding: 5px;
+
+    text-align: center;
+}
+
+.newsletter{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:10px;
+}
+.footer-bottom{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background: black;
+    color:white;
+    border-top: 1px solid white;
+    padding:0 10px;
+}
+
+
